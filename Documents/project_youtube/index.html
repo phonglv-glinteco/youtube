@@ -10,10 +10,10 @@
     <title>YouTube </title>
  </head>
  <body>
-  <nav class="navbar">
+  <nav class="navbar z-1">
     <div class="container-fluid">
       <div>
-        <a class="navbar-brand " data-bs-toggle="collapse" data-bs-target="#collapse-menu"><i class="fa-solid fa-bars align-items-center"></i></a>
+        <a class="navbar-brand"><i class="fa-solid fa-bars align-items-center"></i></a>
         <a href="#"><img src="images/logo.png" alt="Logo" width="130" height="65"></a>
         </div>
         <div class="d-flex" style="width: 40%;">
@@ -36,7 +36,7 @@
         </nav>
       </div>
       -->
-      <div class="nav overflow-y-scroll pt-1" style="height: 850px; width: 300px;" id="collapse-menu">
+      <div class="nav-menu nav">
           <div class="sidebar">
             <a class="d-flex align-items-center nav-link text-dark" style="background-color: rgba(128, 128, 128, 0.294); border-radius: 10px;" href="#"><i class="fa-solid fa-house"></i> Home</a>
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fas fa-play-circle"></i> Shorts</a>
@@ -48,7 +48,7 @@
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fa-regular fa-clock"></i> Watch later</a>
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fa-regular fa-thumbs-up"></i> Liked videos</a>
             <hr>
-            <a class="nav-link text-dark" href="#"><h5>Explore</h5></a>
+            <h5 class="ps-3">Explore</h5>
             <a class=" d-flex align-items-center nav-link text-dark" href="#"><i class="fa-solid fa-fire"></i> Trending </a>
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fa-solid fa-music"></i> Music</a>
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fa-solid fa-gamepad"></i> Gaming</a>
@@ -56,7 +56,7 @@
             <a class="d-flex align-items-center nav-link text-dark" href="#"><i class="fa-solid fa-trophy"></i> Sports</a>
             <hr>
             <div class="sidebar_image">
-            <a class=" nav-link text-dark" href="#"><h5>More from Youtube</h5></a>
+            <h5 class="ps-3">More from Youtube</h5>
             <a class="nav-link text-dark" href="#"><img src="images/youtube premium.png" alt="youtube" width="30" height="20"> Youtube Premium</a>
             <a class="nav-link text-dark" href="#"><img src="images/Youtube music.png" alt="youtube" width="30" height="30"> Youtube Music</a>
             <a class="nav-link text-dark" href="#"><img src="images/youtube kids.png" alt="youtube" width="30" height="20"> Youtube Kids</a>
@@ -77,8 +77,8 @@
             <span><a href="#" class="nav-link text-dark">Advetise</a></span>
             <span><a href="#" class="nav-link text-dark">Deverlopers</a></span>         
       </div>
-      <div class="container-fluid">
-        <div class=" scroll-container d-flex flex-wrap ps-4 pe-2">
+      <div class="container">
+        <div class="scroll d-flex flex-wrap ps-5 z-1">
             <button class="scroll-item p-2 m-1 text-bg-dark active "><b>All</b></button>
             <button class="scroll-item p-2 m-1 bg-light"><b>Music</b></button>
             <button class="scroll-item p-2 m-1 bg-light"><b>Sitcoms </b></button>
@@ -101,11 +101,13 @@
             <button class="scroll-item p-2 m-1 bg-light"><b>Playlists</b></button>
         -->
         </div>
-        <div class="container-fluid p-4 py-3">
-          <div class="row d-flex flex-nowrap pt-3">
+        <div class="container-fluid videos">
+          <div class="row d-flex flex-nowrap pt-5 mt-5 z-0">
               <div class="col-md-3">
                   <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                      <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                    <video controls width="360px" height="200px">
+                        <source src="video/video.mp4" type="video/mp4">
+                      </video>
                       <div class="d-flex mt-2">
                         <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                           <div class="videos-title p-2">
@@ -120,7 +122,9 @@
           <!--video -->
            <div class="col-md-3">
                 <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                    <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                    <video controls width="360px" height="200px">
+                        <source src="video/video.mp4" type="video/mp4">
+                      </video>
                     <div class="d-flex mt-2">
                         <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                         <div class="videos-title pt-2">
@@ -135,7 +139,9 @@
             <!--video-->
             <div class="col-md-3">
               <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                  <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                  <video controls width="360px" height="200px">
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
                   <div class="d-flex mt-2">
                     <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                       <div class="videos-title p-2">
@@ -150,7 +156,9 @@
           <!--video-->
           <div class="col-md-3">
             <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                <video controls width="360px" height="200px">
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
                 <div class="d-flex mt-2">
                     <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                     <div class="videos-title p-2">
@@ -166,7 +174,9 @@
         <div class="row d-flex flex-nowrap pt-5">
           <div class="col-md-3">
               <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                  <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                <video controls width="360px" height="200px">
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
                   <div class="d-flex mt-2">
                     <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                       <div class="videos-title p-2">
@@ -181,7 +191,9 @@
       <!--video -->
        <div class="col-md-3">
             <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-                <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+                <video controls width="360px" height="200px">
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
                 <div class="d-flex mt-2">
                     <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                     <div class="videos-title p-2">
@@ -196,7 +208,9 @@
         <!--video-->
         <div class="col-md-3">
           <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-              <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+            <video controls width="360px" height="200px">
+                <source src="video/video.mp4" type="video/mp4">
+              </video>
               <div class="d-flex mt-2">
                 <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                   <div class="videos-title p-2">
@@ -211,7 +225,9 @@
       <!--video-->
       <div class="col-md-3">
         <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
-            <img src="images/comnguoi.webp" class="img-fluid" alt="Video">
+            <video controls width="360px" height="200px">
+                <source src="video/video.mp4" type="video/mp4">
+              </video>
             <div class="d-flex mt-2">
                 <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
                 <div class="videos-title p-2">
@@ -222,6 +238,75 @@
                 <div class="video-menu pt-2 ps-1 mt-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
             </div>
         </a>
+      </div>
+    </div>
+    <div class="row d-flex flex-nowrap pt-5">
+        <div class="col-md-3">
+            <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
+                <video controls width="360px" height="200px">
+                    <source src="video/video.mp4" type="video/mp4">
+                  </video>
+                <div class="d-flex mt-2">
+                  <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
+                    <div class="videos-title p-2">
+                        <h5>FAPtv Cơm Nguội 287 : Hai Chàng Một Tình Yêu</h5>
+                        <div>FAPTV <i class="fa-solid fa-circle-check"></i> </div>
+                        <div>10M views • 3 months ago</div>
+                    </div>
+                    <div class="video-menu pt-2 ps-1 mt-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+            </a>
+        </div>
+    <!--video -->
+     <div class="col-md-3">
+          <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
+            <video controls width="360px" height="200px">
+                <source src="video/video.mp4" type="video/mp4">
+              </video>
+              <div class="d-flex mt-2">
+                  <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
+                  <div class="videos-title p-2">
+                      <h5>FAPtv Cơm Nguội 287 : Hai Chàng Một Tình Yêu</h5>
+                      <div>FAPTV <i class="fa-solid fa-circle-check"></i> </div>
+                      <div>10M views • 3 months ago</div>
+                  </div>
+                  <div class="video-menu pt-2 ps-1 mt-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+              </div>
+          </a>
+      </div>
+      <!--video-->
+      <div class="col-md-3">
+        <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
+            <video controls width="360px" height="200px">
+                <source src="video/video.mp4" type="video/mp4">
+              </video>
+            <div class="d-flex mt-2">
+              <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
+                <div class="videos-title p-2">
+                    <h5>FAPtv Cơm Nguội 287 : Hai Chàng Một Tình Yêu</h5>
+                    <div>FAPTV <i class="fa-solid fa-circle-check"></i> </div>
+                    <div>10M views • 3 months ago</div>
+                </div>
+                <div class="video-menu pt-2 ps-1 mt-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            </div>
+        </a>
+    </div>
+    <!--video-->
+    <div class="col-md-3">
+      <a href="https://www.youtube.com/watch?v=rdwl9WrSYY0&t=1s" class="text-dark text-decoration-none">
+        <video controls width="360px" height="200px">
+            <source src="video/video.mp4" type="video/mp4">
+          </video>
+          <div class="d-flex mt-2">
+              <a href="#" class="logo-channel p-2"><img src="images/logochannel.jpg" alt="logo channel" style="border-radius: 50%; width: 40px;height: 40px;"></a>
+              <div class="videos-title p-2">
+                  <h5>FAPtv Cơm Nguội 287 : Hai Chàng Một Tình Yêu</h5>
+                  <div>FAPTV <i class="fa-solid fa-circle-check"></i> </div>
+                  <div>10M views • 3 months ago</div>
+              </div>
+              <div class="video-menu pt-2 ps-1 mt-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+          </div>
+      </a>
     </div>
   </div>
 </div>

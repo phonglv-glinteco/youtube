@@ -6,6 +6,7 @@
 
 body {
     margin: 0 auto;
+    background-color: white;
 }
 
 .navbar-brand > i:nth-child(1) {
@@ -59,5 +60,49 @@ a > img {
 }
 .video-menu {
     font-size: 22px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.videos {
+    padding-top: 60px;
+}
+.videos > .row >.col-md-3 {
+    width: 30%;
+}
+video{
+    border-radius: 10px;
+}
+/*
+.videos {
+    .row {
+        .col-md-3 {
+            width: 30%;
+        }
+    }
+}
+*/
+.scroll {
+    position: fixed;
+    top: 77px;
+    left: 260px;
+    background-color: white;
+
+}
+
+
+.nav-menu {
+    position: fixed;
+    overflow-y: scroll;
+    left: 0;
+    top: 80px;
+    height: 91%;
+    background-color: white;
+    width: 260px;
 }
 
